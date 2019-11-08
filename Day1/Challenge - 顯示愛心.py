@@ -1,0 +1,18 @@
+from microbit import *
+
+display.set_pixel(1,0,9)
+display.set_pixel(3,0,9)
+display.set_pixel(0,1,9)
+display.set_pixel(1,1,9)
+display.set_pixel(2,1,9)
+display.set_pixel(3,1,9)
+display.set_pixel(4,1,9)
+display.set_pixel(0,2,9)
+display.set_pixel(1,2,9)
+display.set_pixel(2,2,9)
+display.set_pixel(3,2,9)
+display.set_pixel(4,2,9)
+display.set_pixel(1,3,9)
+display.set_pixel(2,3,9)
+display.set_pixel(3,3,9)
+display.set_pixel(2,4,9)

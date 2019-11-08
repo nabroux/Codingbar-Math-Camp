@@ -1,0 +1,26 @@
+from microbit import *
+import radio
+
+radio.on()
+display.scroll('on', loop=True, wait=False)
+while True:
+    radio.send('-.-.')
+    sleep(3000)
+    radio.send('---')
+    sleep(3000)
+    radio.send('-..')
+    sleep(3000)
+    radio.send('..')
+    sleep(3000)
+    radio.send('-.')
+    sleep(3000)
+    radio.send('--.')
+    sleep(3000)
+    radio.send('-...')
+    sleep(3000)
+    radio.send('.-')
+    sleep(3000)
+    radio.send('.-.')
+    sleep(3000)
+    radio.send('X')
+    sleep(6000)
